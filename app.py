@@ -57,4 +57,4 @@ if prompt:
         st.markdown(reply)
     st.session_state.messages.append({"role": "assistant", "content": reply})
     st.rerun() 
-     # refresh the sidebar
+     
